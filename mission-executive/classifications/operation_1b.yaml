@@ -1,0 +1,5 @@
+Action:
+  HoverAction:
+    - id: 1
+      type: default_singleton
+
