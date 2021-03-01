@@ -20,15 +20,11 @@ gem install activesupport --no-rdoc --no-ri
 gem install kwalify --no-rdoc --no-ri
 ```
 
-## Mission Validation
-
 Validate a mission plan against the schema file ```schema.yaml```.
 
 ```
 (cd mission-executive/operations/; kwalify -lf schema.yaml operation_1a.yaml)
 ```
-
-## Mission Execution
 
 Execute a mission plan.
 
@@ -49,16 +45,12 @@ Execute all mission plans.
 (cd mission-executive/; ./mission.rb)
 ```
 
-## Template Generation
-
 Generate *PRISM DTMC* and *PCTL* code from templates.
 
 ```
 (cd mission-executive/; chmod +x asset_template.rb survivability_template.rb property_template.rb)
 (cd mission-executive/; ./asset_template.rb; ./survivability_template.rb; ./property_template.rb)
 ```
-
-## Prolog Classification
 
 Use *SWI-Prolog* to classify UAV mission elements.
 
@@ -67,8 +59,6 @@ Use *SWI-Prolog* to classify UAV mission elements.
 ?- [operation_1a].
 ?- halt.
 ```
-
-## DTMC, PCTL and YAML Parsing
 
 Execute the parser.
 
