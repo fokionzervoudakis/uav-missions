@@ -2,12 +2,12 @@
 
 This is the repository for a *Ruby* project that verifies the correctness of complex *uninhabited aerial vehicle* (UAV) mission plans.
 
-The project is presented in the postdoctoral thesis *Cascading Verification: An Integrated Method for Domain-Specific Model Checking*, which is available online at: [https://github.com/fokionzervoudakis/phd-thesis](https://github.com/fokionzervoudakis/phd-thesis)
+The project is presented in the postdoctoral thesis *Cascading Verification: An Integrated Method for Domain-Specific Model Checking*, which is available online at: [https://github.com/fokionzd/phd-thesis](https://github.com/fokionzd/phd-thesis)
 
 Clone and navigate to the repository.
 
 ```
-git clone git@github.com:fokionzervoudakis/uav-missions.git
+git clone git@github.com:fokionzd/uav-missions.git
 cd uav-missions/
 ```
 
